@@ -1,0 +1,220 @@
+@font-face {
+font-family: 'RobotoRegular';
+src: url('../fonts/roboto-regular-webfont.eot');
+src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/roboto-regular-webfont.woff') format('woff'),
+url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+url('../fonts/roboto-regular-webfont.svg#RobotoRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+	padding-top: 10px;
+	background-color: #000;
+	font-family: RobotoRegular, Helvetica;
+	font-size: 16px;
+	color: #fff;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* NAVIGATION BAR */
+ul.nav {
+	border-bottom: #2FAFD8 solid 1px;
+	text-align: left;
+	padding-bottom: 11px;
+	margin-left:0px;
+	margin-right:0px;
+}
+ul.nav li {
+	display: inline;
+	font: 100 14px/21px 'RobotoRegular', 'Droid Sans', helvetica;
+	margin-right: 12px;
+	margin-left: 12px;
+	color: #000;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+ul.nav li a {
+	color: #DCDCDC;
+}
+ul.nav li:hover {
+	border-bottom: 3px solid #3C3C3C;
+	padding-bottom: 9px;
+}
+ul.nav li a:hover {
+	border-bottom: 3px solid #3C3C3C;
+	padding-bottom: 9px;
+	color: #fff;
+}
+ul.nav li.active a:hover {
+	border-bottom: 3px solid #2FAFD8;
+	padding-bottom: 9px;
+	color: #fff;
+}
+ul.nav li.active {
+	border-bottom: 3px solid #2FAFD8;
+	padding-bottom: 9px;
+}
+.play {
+	position: absolute;
+	float: right;
+	margin-bottom: 10px;
+	margin-top: -31px;
+	margin-left: 93%;
+	margin-right: -8px;
+	opacity: .2;
+}
+.play:hover {
+	opacity: .5;
+}
+
+/* MAIN CONTENT */
+.content {
+	height: 100%;
+	width: auto;
+	position: static;
+	background: url("../images/bg.jpg");
+	margin-bottom: -10px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #353535;
+}
+
+/* HEADER, LOGO, AND TITLE */
+.header {
+	border-top: 1px solid #141414;
+	background-color: #1E1E1E;
+	border-bottom: 1px solid #2FAFD8;
+}
+.logo {
+	background: url("../images/logo.png");
+	margin-left:200px;
+	width:400px;
+	height:180px;
+}
+.logo#title {
+	background-color: #1E1E1E;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1, rgb(25,25,25)), color-stop(0, rgb(30,30,30)));
+	margin-top: 0px;
+	height: 180px;
+	border-bottom: 1px solid #2FAFD8;
+	color: #E6E6E6;
+	font-size: 8px;
+	font-family: RobotoRegular, Helvetica
+}
+.logo p {
+position: absolute;
+font: 100 34px/21px 'RobotoRegular', Helvetica;
+margin-left:45%;
+margin-top: 75px;
+text-shadow:2px 2px 0 #000;
+}
+
+/* POST/PAGE FORMATTING */
+.post {
+	margin-top: 40px;
+	margin-left: 4%; 
+	text-align:center;
+	padding-top:5px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	color: rgb(230,230,230);
+	width:65%;
+	height:auto;
+	max-height:1900px;
+	min-height:100px;
+	background-color: rgb(40,40,40);
+	box-shadow: 0px 0px 15px rgb(30,30,30);
+	border-top: rgb(53,53,51) 1px solid;
+	border: rgb(43,43,43) 1px solid;
+}
+.post p {
+	margin-top: 5px;
+	font-size: 13px;
+	text-align:left;
+}
+.posttitle {
+	margin-top:2px;
+	font-size: 18px;
+	font-family: 'RobotoRegular', Helvetica;
+	font-weight: semi-bold;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #353535;
+	margin-left:-15px;
+	margin-right:-15px;
+	color: #6ED4ED;
+	text-align: center;
+}
+.postextra {
+	margin-top: 5px;
+	border-top: 1px solid #353535;
+	padding-bottom:5px;
+	width: 103.55%;
+	margin-left: -15px;
+}
+
+/* SIDEBAR CONTENT */
+.sidebar {
+	float: right;
+	margin-top: 40px;
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 20%;
+	padding-top:5px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:0px;
+	color: rgb(230,230,230);
+	height:auto;
+	max-height:1900px;
+	min-height:100px;
+	background-color: rgb(40,40,40);
+	box-shadow: 0px 0px 15px rgb(30,30,30);
+	border-top: rgb(53,53,51) 1px solid;
+	border: rgb(43,43,43) 1px solid;
+}
+.sidebar p {
+	margin-top: 5px;
+	font-size: 13px;
+	text-align:left;
+}
+.sidebartitle {
+	margin-top:2px;
+	font-size: 18px;
+	font-family: 'RobotoRegular', Helvetica;
+	font-weight: semi-bold;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #353535;
+	margin-left:-15px;
+	margin-right:-15px;
+	color: #6ED4ED;
+	text-align: center;
+}
+.sidebarextra {
+	margin-top: 5px;
+	border-top: 1px solid #353535;
+	padding-bottom:5px;
+	width: 102.55%;
+	margin-left: -15px;
+}
+
+/* FOOTER FORMATTING */
+.footer {
+	font-family: RobotoRegular;
+	font-size: 10px;
+	border-top: 1px solid #2FAFD8;
+	margin-top: 10px;
+	padding: 5px 5px 5px 5px;
+	height: auto;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	float:right;
+	text-align: right;
+	overflow: hidden;
+}
